@@ -12,7 +12,7 @@ jobs:
           command: cd ios && fastlane scan
           environment:
             SCAN_DEVICE: iPhone 8
-            SCAN_SCHEME: WebTests
+            SCAN_SCHEME: CircleCIDemoReactNative
 
       - store_test_results:
           path: test_output/report.xml
